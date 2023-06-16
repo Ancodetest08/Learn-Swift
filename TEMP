@@ -1,0 +1,42 @@
+for eachSeed in 1...4 {
+	makeHole()
+	placeSeed()
+	moveFiveInchesForward()
+}
+
+if lightIsGreen {
+	moveForward()
+} else {
+	wait()
+}
+
+var name = "Mia"
+var age = 19
+
+myHouse.openGarageDoor()
+bluePortal.isActive = false
+
+let expert = Expert()
+
+func tieMyShoe() {
+	loop()
+	swoop()
+	pull()
+}
+tieMyShoe()
+
+func move(count: Int) {
+	for i in 1...count {
+		moveForward()
+	}
+}
+move(count: 3)
+
+while nailIsStickingOut {
+	hammerNail()
+}
+
+var ingredients = [ice cream, banana, chocolate, cherry]
+ingredients.remove(at: 2)
+ingredients.append(milk)
+ingredients.insert(strawberry, at: 1)
