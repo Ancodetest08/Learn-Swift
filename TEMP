@@ -1,8 +1,7 @@
-for eachSeed in 1...4 {
-	makeHole()
-	placeSeed()
-	moveFiveInchesForward()
-}
+var name = "An"
+var age = 20
+
+let expert = Expert()
 
 if lightIsGreen {
 	moveForward()
@@ -10,13 +9,23 @@ if lightIsGreen {
 	wait()
 }
 
-var name = "Mia"
-var age = 19
+for eachSeed in 1...4 {
+	makeHole()
+	placeSeed()
+	moveFiveInchesForward()
+}
+
+while nailIsStickingOut {
+	hammerNail()
+}
+
+var ingredients = [ice cream, banana, chocolate, cherry]
+ingredients.remove(at: 2)
+ingredients.append(milk)
+ingredients.insert(strawberry, at: 1)
 
 myHouse.openGarageDoor()
 bluePortal.isActive = false
-
-let expert = Expert()
 
 func tieMyShoe() {
 	loop()
@@ -31,12 +40,3 @@ func move(count: Int) {
 	}
 }
 move(count: 3)
-
-while nailIsStickingOut {
-	hammerNail()
-}
-
-var ingredients = [ice cream, banana, chocolate, cherry]
-ingredients.remove(at: 2)
-ingredients.append(milk)
-ingredients.insert(strawberry, at: 1)
